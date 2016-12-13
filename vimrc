@@ -61,10 +61,11 @@ filetype plugin indent on    " required
 
 
 " colorscheme
-let g:solarized_termcolors=256
-colorscheme solarized
-syntax enable
 set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+syntax enable
+colorscheme solarized
 filetype plugin indent on
 
 set encoding=utf-8
