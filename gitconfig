@@ -1,0 +1,11 @@
+[color]
+	ui = true
+[user]
+	name = luotao
+	email = luotao.ruby@gmail.com
+[push]
+        default = current
+[pull]
+        default = current
+[credential]
+        helper = osxkeychain
