@@ -16,6 +16,7 @@ Plugin 'tpope/vim-fugitive' " Git Wrapper
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary' " Comment stuff out. Usage: `gcc`, `gc`, `gcap`, `:g/TODO/Commentary`
 Plugin 'vim-scripts/Align' " Align Text, common usage: `:6,10Align =`
+Plugin 'vimwiki/vimwiki'
 
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/emmet-vim'
