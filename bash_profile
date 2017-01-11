@@ -12,6 +12,7 @@ GIT_PROMTP_THEMT=Solarized
 alias ll='ls -lha'
 alias workspace='cd ~/Workspace'
 alias fuckgfw='proxychains4'
+alias prof_vim_startup='vim --startuptime /tmp/startup.log +q && vim /tmp/startup.log'
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
