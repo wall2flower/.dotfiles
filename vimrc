@@ -7,7 +7,9 @@ call vundle#begin()
 " => let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'mhinz/vim-startify'
 Plugin 'scrooloose/nerdtree'
+Plugin 'mbbill/undotree'
 Plugin 'rking/ag.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive' " Git Wrapper
@@ -82,6 +84,15 @@ autocmd FileType javascript setlocal expandtab shiftwidth=4 softtabstop=4
 set laststatus=2
 let g:airline_theme='bubblegum'
 
+" Vimwiki
+let wiki = {}
+let wiki.path = '~/Workspace/vimwiki/source'
+let wiki.path_html = '~/Workspace/vimwiki/'
+let g:vimwiki_list = [wiki]
+
+" Tagbar
+let g:tagbar_sort = 0
+
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
@@ -92,3 +103,5 @@ let mapleader = ','
 nnoremap <leader>a :Ag<space>
 nnoremap <leader>d :NERDTreeToggle<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
+nnoremap <leader>tag :TagbarToggle<CR>
+nnoremap <leader>undo :UndotreeToggle<CR>
