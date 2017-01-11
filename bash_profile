@@ -10,5 +10,8 @@ export EDITOR=vim
 GIT_PROMTP_THEMT=Solarized
 
 alias ll='ls -lha'
+alias workspace='cd ~/Workspace'
+alias fuckgfw='proxychains4'
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
