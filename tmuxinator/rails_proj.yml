@@ -1,7 +1,7 @@
 # ~/.tmuxinator/rails_proj.yml
 
 name: rails_proj
-root: <%= @args[1] || '~/Workspace' %>
+root: <%= @args[0] || '~/Workspace' %>
 
 # Optional tmux socket
 # socket_name: foo
