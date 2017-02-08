@@ -7,7 +7,8 @@ call vundle#begin()
 " => let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'mhinz/vim-startify'
+Plugin 'ap/vim-buftabline'
+" Plugin 'qpkorr/vim-bufkill'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
 Plugin 'rking/ag.vim'
@@ -97,6 +98,14 @@ let g:tagbar_sort = 0
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
+
+" Buftabline
+set hidden
+let g:buftabline_show=1
+let g:buftabline_numbers=1
+" nnoremap <leader>bn :bnext<CR>
+" nnoremap <leader>bp :bprev<CR>
+
 
 " => Keyboard shortcuts
 let mapleader = ','
