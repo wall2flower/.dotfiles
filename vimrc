@@ -23,6 +23,7 @@ Plugin 'vimwiki/vimwiki'
 
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/emmet-vim'
+Plugin 'leafgarland/typescript-vim'
 " Plugin 'SirVer/ultisnips'
 " Plugin 'honza/vim-snippets'
 
