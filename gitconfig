@@ -9,3 +9,5 @@
         default = current
 [credential]
         helper = osxkeychain
+[core]
+	excludesfile = /Users/luotao/.gitignore_global
